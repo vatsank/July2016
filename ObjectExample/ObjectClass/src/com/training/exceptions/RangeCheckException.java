@@ -14,6 +14,12 @@ public class RangeCheckException extends Exception {
 		
 		return this.bookNumber +"should be 1000-10000";
 	}
+
+	@Override
+	public void printStackTrace() {
+		// TODO Auto-generated method stub
+		super.printStackTrace();
+	}
 	  
 	  
 }
