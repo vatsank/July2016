@@ -110,7 +110,10 @@ public class Book {
 		
 	}
 	
-	
+	public void getModel(){
+		
+	   System.out.println("Hi");
+	}
 	
 	
 
